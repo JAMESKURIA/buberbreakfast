@@ -1,0 +1,18 @@
+POST http://localhost:5262/breakfasts HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Eggs Benedict",
+    "description": "Eggs Benedict is a dish of poached eggs and Canadian bacon on an English muffin, topped with a hollandaise sauce.",
+    "startDateTime": "2019-01-01T08:00:00Z",
+    "endDateTime": "2019-01-01T10:00:00Z",
+    "savory": [
+        "eggs",
+        "bacon",
+        "muffin"
+    ],
+    "sweet": [
+        "hollandaise sauce"
+    ]
+
+}
